@@ -1,9 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import AboutMe from './components/AboutMe.jsx';
+import Applications from './components/Applications.jsx';
 
 const App = () => {
   return (
-    <div>Hello React!</div>
+    <>
+      <AboutMe/>
+      <Applications/>
+    </>
   )
 };
 
