@@ -1,10 +1,10 @@
 import React from  'react';
-import { Card, Button } from 'react-bootstrap';
+import { Card } from 'react-bootstrap';
 
 const Application = ({ app }) => {
   const { title, description, technology, githubURL, image } = app;
   return (
-      <Card style={{ width: '27rem', margin: 'auto' }}>
+      <Card style={{ width: '27rem' }}>
         <Card.Body>
           <Card.Title>{title}</Card.Title>
           <Card.Subtitle className="mb-2 text-muted">{description}</Card.Subtitle>
