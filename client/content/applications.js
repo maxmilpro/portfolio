@@ -12,6 +12,13 @@ const applicationData = [
     technology: ['React', 'Express', 'MongoDB', 'Docker', 'Amazon Web Services (AWS)'],
     githubURL: 'https://github.com/rpt26-fec-phoenix/max-details',
     image: 'placeHolder'
+  },
+  {
+    title: 'Recipebook',
+    description: 'A productivity tool that allows users to keep track of their ingredients and provide recipe suggestions',
+    technology: ['React', 'Express', 'MongoDB', 'Heroku'],
+    githubURL: 'https://github.com/maxmilpro/mvp',
+    image: 'placeHolder'
   }
 ];
 
